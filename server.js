@@ -39,6 +39,10 @@ app.get('/api/jokes',(req,res)=>{
       res.send(jokes);
 })
 
+app.get('/api/kunal' , (req,res)=>{
+    res.send("Kunal Shivhare")
+})
+
 const port = process.env.PORT || 3000;
 
 app.listen(port ,()=>{
