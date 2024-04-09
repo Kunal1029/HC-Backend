@@ -9,3 +9,5 @@ This is a backend with JS
 
 
 - npm i -D nodemon (use this command to install nodemon)
+
+- npm i -D prettier
